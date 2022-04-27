@@ -1,301 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-
-    <link rel="stylesheet" href="utility.css">
-    <link rel="stylesheet" href="tickets.css">
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="tickets.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
-    crossorigin="anonymous"
-
-  />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Dashboard | Tickets</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <!-- MENU -->
-        <section class="menu">
-            <div class="title-container">
-                <div class="circle">
-                    <div class="d-sign"></div>
-                </div>
-                <p class="title">Dashboard Kit</p>
+      <!-- MENU -->
+      <section class="menu">
+        <div class="title-container">
+          <div class="circle">
+            <div class="d-sign"></div>
+          </div>
+          <p class="title">Dashboard Kit</p>
+        </div>
+        <a href="dashboard.html" class="menu-button">
+          <i class="fa fa-circle"></i>
+          <p class="menu-button-text">Overview</p>
+        </a>
+        <a href="tickets.html" class="menu-button active">
+          <i class="fa fa-ticket"></i>
+          <p class="menu-button-text">Tickets</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-lightbulb"></i>
+          <p class="menu-button-text" title="Not implemented">Ideas</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-users"></i>
+          <p class="menu-button-text" title="Not implemented">Contacts</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-user-secret"></i>
+          <p class="menu-button-text" title="Not implemented">Agents</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-newspaper"></i>
+          <p class="menu-button-text" title="Not implemented">Articles</p>
+        </a>
+
+        <div class="break-line"></div>
+
+        <a href="" class="menu-button">
+          <i class="fa fa-cog"></i>
+          <p class="menu-button-text" title="Not implemented">Settings</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-newspaper"></i>
+          <p class="menu-button-text" title="Not implemented">Subscription</p>
+        </a>
+      </section>
+      <!-- DASHBOARD -->
+      <section class="dashboard-section">
+        <section class="tickets">
+          <div class="header">
+            <i class="fa fa-bars fa-2x" id="mobile-menu-icon"></i>
+            <p class="section-name">Tickets</p>
+            <div class="user">
+              <p class="user-name">Jones Ferdinand</p>
+              <div class="user-img">
+                <img src="./images/_header.png" alt="user image" />
+              </div>
             </div>
-            <a href="dashboard.html" class="menu-button ">
-                <i class="fa fa-circle"></i>
-                <p class="menu-button-text">Overview</p>
-            </a>
-            <a href="tickets.html" class="menu-button active">
-                <i class="fa fa-ticket"></i>
-                <p class="menu-button-text">Tickets</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-lightbulb"></i>
-                <p class="menu-button-text" title="Not implemented">Ideas</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-users"></i>
-                <p class="menu-button-text" title="Not implemented">Contacts</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-user-secret"></i>
-                <p class="menu-button-text" title="Not implemented">Agents</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-newspaper"></i>
-                <p class="menu-button-text" title="Not implemented">Articles</p>
-            </a>
-
-            <div class="break-line"></div>
-
-            <a href="" class="menu-button">
-                <i class="fa fa-cog"></i>
-                <p class="menu-button-text" title="Not implemented">Settings</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-newspaper"></i>
-                <p class="menu-button-text" title="Not implemented">Subscription</p>
-            </a>
-        </section>
-        <!-- DASHBOARD -->
-        <section  class="dashboard-section">            
-            <section class="tickets">
-                <div class="header">
-                    <i class="fa fa-bars fa-2x" id="mobile-menu-icon" ></i>
-                    <p class="section-name">Tickets</p>
-                    <div class="user">
-                        <p class="user-name">Jones Ferdinand</p>
-                        <div class="user-img">
-                            <img src="./images/_header.png" alt="user image">
-                        </div>
-                    </div>
+          </div>
+          <div class="all-tickets">
+            <div class="all-tickets-header">
+              <p class="title">All tickets</p>
+              <div class="table-actions">
+                <div class="action">
+                  <i class="fa fa-sort"></i>
+                  <p class="action-name">Sort</p>
                 </div>
-                <div class="all-tickets">
-                    <div class="all-tickets-header">
-                        <p class="title">All tickets</p>
-                        <div class="table-actions">
-                            <div class="action">
-                                <i class="fa fa-sort"></i>
-                                <p class="action-name">Sort</p>
-                            </div>
-                            <div class="action">
-                                <i class="fa fa-filter"></i>
-                                <p class="action-name">Filter</p>
-                            </div>
-                        </div>
-                    </div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th class="ticket-details-column">Ticket details</th>
-                                <th class="ticket-customer-column">Customer name</th>
-                                <th class="ticket-date-column">Date</th>
-                                <th class="ticket-priority-column">Priority</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="ticket-details-column">
-                                    <div class="user-image">
-                                        <img src="./images/_header.png" alt="user-image">
-                                    </div>
-                                    <div class="ticket-details">
-                                        <p>Contact Email not Linked</p>
-                                        <p class="secondary-text">Updated 1 day ago</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-customer-column">
-                                    <div class="customer-details">
-                                        <p class="customer-name">Tom Cruise</p>
-                                        <div class="secondary-text">on 24.05.2019</div>
-                                    </div>
-                                </td>
-                                <td class="ticket-date-column">
-                                    <div class="date">
-                                        <p>May 26, 2019</p>
-                                        <p class="secondary-text">6:30 PM</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-priority-column">
-                                    <p class="task-status high-task">HIGH</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="ticket-details-column">
-                                    <div class="user-image">
-                                        <img src="./images/_header.png" alt="user-image">
-                                    </div>
-                                    <div class="ticket-details">
-                                        <p>Adding Images to Featured Posts</p>
-                                        <p class="secondary-text">Updated 1 day ago</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-customer-column">
-                                    <div class="customer-details">
-                                        <p class="customer-name">Matt Damon</p>
-                                        <div class="secondary-text">on 24.05.2019</div>
-                                    </div>
-                                </td>
-                                <td class="ticket-date-column">
-                                    <div class="date">
-                                        <p>May 26, 2019</p>
-                                        <p class="secondary-text">6:30 PM</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-priority-column">
-                                    <p class="task-status low-task">LOW</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="ticket-details-column">
-                                    <div class="user-image">
-                                        <img src="./images/_header.png" alt="user-image">
-                                    </div>
-                                    <div class="ticket-details">
-                                        <p>When will I be charged this month?</p>
-                                        <p class="secondary-text">Updated 1 day ago</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-customer-column">
-                                    <div class="customer-details">
-                                        <p class="customer-name">Robert Downey</p>
-                                        <div class="secondary-text">on 24.05.2029</div>
-                                    </div>
-                                </td>
-                                <td class="ticket-date-column">
-                                    <div class="date">
-                                        <p>May 26, 2019</p>
-                                        <p class="secondary-text">6:30 PM</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-priority-column">
-                                    <p class="task-status normal-task">LOW</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="ticket-details-column">
-                                    <div class="user-image">
-                                        <img src="./images/_header.png" alt="user-image">
-                                    </div>
-                                    <div class="ticket-details">
-                                        <p>Payment not going through</p>
-                                        <p class="secondary-text">Updated 2 days ago</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-customer-column">
-                                    <div class="customer-details">
-                                        <p class="customer-name">Henry Cavil</p>
-                                        <div class="secondary-text">on 24.05.2019</div>
-                                    </div>
-                                </td>
-                                <td class="ticket-date-column">
-                                    <div class="date">
-                                        <p>May 26, 2019</p>
-                                        <p class="secondary-text">6:30 PM</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-priority-column">
-                                    <p class="task-status normal-task">LOW</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="ticket-details-column">
-                                    <div class="user-image">
-                                        <img src="./images/_header.png" alt="user-image">
-                                    </div>
-                                    <div class="ticket-details">
-                                        <p>Downtime since last week</p>
-                                        <p class="secondary-text">Updated 1 day ago</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-customer-column">
-                                    <div class="customer-details">
-                                        <p class="customer-name">Chris Evans</p>
-                                        <div class="secondary-text">on 24.05.2019</div>
-                                    </div>
-                                </td>
-                                <td class="ticket-date-column">
-                                    <div class="date">
-                                        <p>May 26, 2019</p>
-                                        <p class="secondary-text">6:30 PM</p>
-                                    </div>
-                                </td>
-                                <td class="ticket-priority-column">
-                                    <p class="task-status high-task">HIGH</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="action">
+                  <i class="fa fa-filter"></i>
+                  <p class="action-name">Filter</p>
                 </div>
-            </section>
-        </section>
-
-        <section class="mobile-menu" id="mobile-menu">
-            <i class="fa fa-times fa-2x" id="mobile-menu-close-icon"></i>
-            <div class="buttons">
-                <a href="dashboard.html" class="menu-button ">
-                    <i class="fa fa-circle"></i>
-                    <p class="menu-button-text">Overview</p>
-                </a>
-                <a href="tickets.html" class="menu-button active">
-                    <i class="fa fa-ticket"></i>
-                    <p class="menu-button-text">Tickets</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-lightbulb"></i>
-                    <p class="menu-button-text">Ideas</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-users"></i>
-                    <p class="menu-button-text">Contacts</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-user-secret"></i>
-                    <p class="menu-button-text">Agents</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-newspaper"></i>
-                    <p class="menu-button-text">Articles</p>
-                </a>
-
-                <div class="break-line"></div>
-
-                <a href="" class="menu-button">
-                    <i class="fa fa-cog"></i>
-                    <p class="menu-button-text">Settings</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-newspaper"></i>
-                    <p class="menu-button-text">Subscription</p>
-                </a>
+              </div>
             </div>
+            <table>
+              <thead>
+                <tr>
+                  <th class="ticket-details-column">Ticket details</th>
+                  <th class="ticket-customer-column">Customer name</th>
+                  <th class="ticket-date-column">Date</th>
+                  <th class="ticket-priority-column">Priority</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="ticket-details-column">
+                    <div class="user-image">
+                      <img src="./images/_header.png" alt="user-image" />
+                    </div>
+                    <div class="ticket-details">
+                      <p>Contact Email not Linked</p>
+                      <p class="secondary-text">Updated 1 day ago</p>
+                    </div>
+                  </td>
+                  <td class="ticket-customer-column">
+                    <div class="customer-details">
+                      <p class="customer-name">Tom Cruise</p>
+                      <div class="secondary-text">on 24.05.2019</div>
+                    </div>
+                  </td>
+                  <td class="ticket-date-column">
+                    <div class="date">
+                      <p>May 26, 2019</p>
+                      <p class="secondary-text">6:30 PM</p>
+                    </div>
+                  </td>
+                  <td class="ticket-priority-column">
+                    <p class="task-status high-task">HIGH</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="ticket-details-column">
+                    <div class="user-image">
+                      <img src="./images/_header.png" alt="user-image" />
+                    </div>
+                    <div class="ticket-details">
+                      <p>Adding Images to Featured Posts</p>
+                      <p class="secondary-text">Updated 1 day ago</p>
+                    </div>
+                  </td>
+                  <td class="ticket-customer-column">
+                    <div class="customer-details">
+                      <p class="customer-name">Matt Damon</p>
+                      <div class="secondary-text">on 24.05.2019</div>
+                    </div>
+                  </td>
+                  <td class="ticket-date-column">
+                    <div class="date">
+                      <p>May 26, 2019</p>
+                      <p class="secondary-text">6:30 PM</p>
+                    </div>
+                  </td>
+                  <td class="ticket-priority-column">
+                    <p class="task-status low-task">LOW</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="ticket-details-column">
+                    <div class="user-image">
+                      <img src="./images/_header.png" alt="user-image" />
+                    </div>
+                    <div class="ticket-details">
+                      <p>When will I be charged this month?</p>
+                      <p class="secondary-text">Updated 1 day ago</p>
+                    </div>
+                  </td>
+                  <td class="ticket-customer-column">
+                    <div class="customer-details">
+                      <p class="customer-name">Robert Downey</p>
+                      <div class="secondary-text">on 24.05.2029</div>
+                    </div>
+                  </td>
+                  <td class="ticket-date-column">
+                    <div class="date">
+                      <p>May 26, 2019</p>
+                      <p class="secondary-text">6:30 PM</p>
+                    </div>
+                  </td>
+                  <td class="ticket-priority-column">
+                    <p class="task-status normal-task">LOW</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="ticket-details-column">
+                    <div class="user-image">
+                      <img src="./images/_header.png" alt="user-image" />
+                    </div>
+                    <div class="ticket-details">
+                      <p>Payment not going through</p>
+                      <p class="secondary-text">Updated 2 days ago</p>
+                    </div>
+                  </td>
+                  <td class="ticket-customer-column">
+                    <div class="customer-details">
+                      <p class="customer-name">Henry Cavil</p>
+                      <div class="secondary-text">on 24.05.2019</div>
+                    </div>
+                  </td>
+                  <td class="ticket-date-column">
+                    <div class="date">
+                      <p>May 26, 2019</p>
+                      <p class="secondary-text">6:30 PM</p>
+                    </div>
+                  </td>
+                  <td class="ticket-priority-column">
+                    <p class="task-status normal-task">LOW</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="ticket-details-column">
+                    <div class="user-image">
+                      <img src="./images/_header.png" alt="user-image" />
+                    </div>
+                    <div class="ticket-details">
+                      <p>Downtime since last week</p>
+                      <p class="secondary-text">Updated 1 day ago</p>
+                    </div>
+                  </td>
+                  <td class="ticket-customer-column">
+                    <div class="customer-details">
+                      <p class="customer-name">Chris Evans</p>
+                      <div class="secondary-text">on 24.05.2019</div>
+                    </div>
+                  </td>
+                  <td class="ticket-date-column">
+                    <div class="date">
+                      <p>May 26, 2019</p>
+                      <p class="secondary-text">6:30 PM</p>
+                    </div>
+                  </td>
+                  <td class="ticket-priority-column">
+                    <p class="task-status high-task">HIGH</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
+      </section>
+
+      <section class="mobile-menu" id="mobile-menu">
+        <i class="fa fa-times fa-2x" id="mobile-menu-close-icon"></i>
+        <div class="buttons">
+          <a href="dashboard.html" class="menu-button">
+            <i class="fa fa-circle"></i>
+            <p class="menu-button-text">Overview</p>
+          </a>
+          <a href="tickets.html" class="menu-button active">
+            <i class="fa fa-ticket"></i>
+            <p class="menu-button-text">Tickets</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-lightbulb"></i>
+            <p class="menu-button-text">Ideas</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-users"></i>
+            <p class="menu-button-text">Contacts</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-user-secret"></i>
+            <p class="menu-button-text">Agents</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-newspaper"></i>
+            <p class="menu-button-text">Articles</p>
+          </a>
+
+          <div class="break-line"></div>
+
+          <a href="" class="menu-button">
+            <i class="fa fa-cog"></i>
+            <p class="menu-button-text">Settings</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-newspaper"></i>
+            <p class="menu-button-text">Subscription</p>
+          </a>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
 
 <script>
-    let menuIsDisplayed = false;
-    const mobileMenuIcon = document.getElementById("mobile-menu-icon");
-    const mobileMenuCloseIcon = document.getElementById("mobile-menu-close-icon");
-    const mobileMenu = document.getElementById("mobile-menu")
+  let menuIsDisplayed = false;
+  const mobileMenuIcon = document.getElementById("mobile-menu-icon");
+  const mobileMenuCloseIcon = document.getElementById("mobile-menu-close-icon");
+  const mobileMenu = document.getElementById("mobile-menu");
 
-    const mobileMenuHandler = () =>{
-        menuIsDisplayed = !menuIsDisplayed
-        if(menuIsDisplayed) mobileMenu.classList.add('active-mobile-menu')
-        else mobileMenu.classList.remove('active-mobile-menu')
-    }
+  const mobileMenuHandler = () => {
+    menuIsDisplayed = !menuIsDisplayed;
+    if (menuIsDisplayed) mobileMenu.classList.add("active-mobile-menu");
+    else mobileMenu.classList.remove("active-mobile-menu");
+  };
 
-    mobileMenuIcon.addEventListener("click", mobileMenuHandler)
-    mobileMenuCloseIcon.addEventListener("click", mobileMenuHandler)
-    
+  mobileMenuIcon.addEventListener("click", mobileMenuHandler);
+  mobileMenuCloseIcon.addEventListener("click", mobileMenuHandler);
 </script>

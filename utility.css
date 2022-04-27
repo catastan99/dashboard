@@ -1,76 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-:root{
-    --primary-color: #363740;
-    --secondary-color: #3751FF;
-    --gray-color: #A4A6B3;
-    --gray-dark: #4B506D;
-    --gray-lightest:#F0F1F7;
-    --primary-font:'Mulish'
+:root {
+  --primary-color: #363740;
+  --secondary-color: #3751ff;
+  --gray-color: #a4a6b3;
+  --gray-dark: #4b506d;
+  --gray-lightest: #f0f1f7;
+  --primary-font: "Mulish";
 }
 
-.secondary-color{
-    color: var(--secondary-color);
+.secondary-color {
+  color: var(--secondary-color);
 }
 
-.gray-color{
-    color: var(--gray-color);
+.gray-color {
+  color: var(--gray-color);
 }
 
-.task-status{
-    padding: 5px 12px;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 14px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    border-radius: 8px;
-    width: fit-content;
+.task-status {
+  padding: 5px 12px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  width: fit-content;
 }
 
-.urgent-task{
-    background: #FEC400;
-    color: #fff;
+.urgent-task {
+  background: #fec400;
+  color: #fff;
 }
 
-.new-task{
-    background: #29CC97;
-    color: #fff;
+.new-task {
+  background: #29cc97;
+  color: #fff;
 }
 
-.default-task{
-    background: #F0F1F7;
-    color: #9FA2B4;
+.default-task {
+  background: #f0f1f7;
+  color: #9fa2b4;
 }
 
-.high-task{
-    background: #F12B2C;
-    color: #fff;
+.high-task {
+  background: #f12b2c;
+  color: #fff;
 }
 
-.low-task{
-    background: #FEC400;
-    color: #fff;
+.low-task {
+  background: #fec400;
+  color: #fff;
 }
 
-.normal-task{
-    background: #29CC97;
-    color: #fff;
+.normal-task {
+  background: #29cc97;
+  color: #fff;
 }

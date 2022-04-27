@@ -1,268 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link rel="stylesheet" href="utility.css">
-    <link rel="stylesheet" href="dashboard.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="dashboard.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Dashboard | Overview</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <!-- MENU -->
-        <section class="menu">
-            <div class="title-container">
-                <div class="circle">
-                    <div class="d-sign"></div>
-                </div>
-                <p class="title">Dashboard Kit</p>
+      <!-- MENU -->
+      <section class="menu">
+        <div class="title-container">
+          <div class="circle">
+            <div class="d-sign"></div>
+          </div>
+          <p class="title">Dashboard Kit</p>
+        </div>
+        <a href="dashboard.html" class="menu-button active">
+          <i class="fa fa-circle"></i>
+          <p class="menu-button-text">Overview</p>
+        </a>
+        <a href="tickets.html" class="menu-button">
+          <i class="fa fa-ticket"></i>
+          <p class="menu-button-text">Tickets</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-lightbulb"></i>
+          <p class="menu-button-text" title="Not implemented">Ideas</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-users"></i>
+          <p class="menu-button-text" title="Not implemented">Contacts</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-user-secret"></i>
+          <p class="menu-button-text" title="Not implemented">Agents</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-newspaper"></i>
+          <p class="menu-button-text" title="Not implemented">Articles</p>
+        </a>
+
+        <div class="break-line"></div>
+
+        <a href="" class="menu-button">
+          <i class="fa fa-cog"></i>
+          <p class="menu-button-text" title="Not implemented">Settings</p>
+        </a>
+        <a href="" class="menu-button">
+          <i class="fa fa-newspaper"></i>
+          <p class="menu-button-text" title="Not implemented">Subscription</p>
+        </a>
+      </section>
+      <!-- DASHBOARD -->
+      <section class="dashboard-section">
+        <section class="overview">
+          <div class="header">
+            <i class="fa fa-bars fa-2x" id="mobile-menu-icon"></i>
+            <p class="section-name">Overview</p>
+            <div class="user">
+              <p class="user-name">Jones Ferdinand</p>
+              <div class="user-img">
+                <img src="./images/_header.png" alt="user image" />
+              </div>
             </div>
-            <a href="dashboard.html" class="menu-button active">
-                <i class="fa fa-circle"></i>
-                <p class="menu-button-text">Overview</p>
-            </a>
-            <a href="tickets.html" class="menu-button">
-                <i class="fa fa-ticket"></i>
-                <p class="menu-button-text">Tickets</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-lightbulb"></i>
-                <p class="menu-button-text" title="Not implemented">Ideas</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-users"></i>
-                <p class="menu-button-text" title="Not implemented">Contacts</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-user-secret"></i>
-                <p class="menu-button-text" title="Not implemented">Agents</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-newspaper"></i>
-                <p class="menu-button-text" title="Not implemented">Articles</p>
-            </a>
-
-            <div class="break-line"></div>
-
-            <a href="" class="menu-button">
-                <i class="fa fa-cog"></i>
-                <p class="menu-button-text" title="Not implemented">Settings</p>
-            </a>
-            <a href="" class="menu-button">
-                <i class="fa fa-newspaper"></i>
-                <p class="menu-button-text" title="Not implemented">Subscription</p>
-            </a>
-                
-            
-        </section>
-        <!-- DASHBOARD -->
-        <section  class="dashboard-section">            
-            <section class="overview">
-                <div class="header">
-                    <i class="fa fa-bars fa-2x" id="mobile-menu-icon" ></i>
-                    <p class="section-name">Overview</p>
-                    <div class="user">
-                        <p class="user-name">Jones Ferdinand</p>
-                        <div class="user-img">
-                            <img src="./images/_header.png" alt="user image">
-                        </div>
-                    </div>
-                </div>
-                <!-- Statistics -->
-                <div class="statistics">
-                    <div class="statistic">
-                        <p class="statistic-title">Unresolved</p>
-                        <p class="statistic-number">60</p>
-                    </div>
-                    <div class="statistic">
-                        <p class="statistic-title">Overdue</p>
-                        <p class="statistic-number">16</p>
-                    </div>
-                    <div class="statistic">
-                        <p class="statistic-title">Open</p>
-                        <p class="statistic-number">43</p>
-                    </div>
-                    <div class="statistic">
-                        <p class="statistic-title">On hold</p>
-                        <p class="statistic-number">64</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- TRENDS -->
-
-            <div class="trends">
-                <div class="trends-graphics">
-                    <p class="graphic-title">Today’s trends</p>
-                    <div class="graphic-date">
-                        <p class="date">as of 25 May 2019, 09:41 PM</p>
-                        <div class="graphic-legend">
-                            <div class="graphic-1">
-                                <div class="graphic-color"></div>
-                                <p>Today</p>
-                            </div>
-                            <div class="graphic-2">
-                                <div class="graphic-color"></div>
-                                <p>Yesterday</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="graphic-image">
-                        <img src="./images/full graph.png" alt="graphic">
-                    </div>
-                </div>
-                <div class="trends-summaries">
-                    <div class="summary">
-                        <p class="summary-title">Resolved</p>
-                        <p class="summary-number">449</p>
-                    </div>
-                    <div class="summary">
-                        <p class="summary-title">Received</p>
-                        <p class="summary-number">426</p>
-                    </div>
-                    <div class="summary">
-                        <p class="summary-title">Average first response time</p>
-                        <p class="summary-number">33m</p>
-                    </div>
-                    <div class="summary">
-                        <p class="summary-title">Average response time</p>
-                        <p class="summary-number">3h 8m</p>
-                    </div>
-                    <div class="summary">
-                        <p class="summary-title">Resolution within SLA</p>
-                        <p class="summary-number">94%</p>
-                    </div>
-                </div>
+          </div>
+          <!-- Statistics -->
+          <div class="statistics">
+            <div class="statistic">
+              <p class="statistic-title">Unresolved</p>
+              <p class="statistic-number">60</p>
             </div>
-
-            <!-- TICKETS AND tasks -->
-
-            <div class="tickets-and-tasks">
-                <div class="tickets">
-                    <div class="header">
-                        <p class="title">Unresolved tickets</p>
-                        <p class="extend secondary-color">View all</p>
-                    </div>
-                    <p class="category">Group: <strong>Support</strong></p>
-                    <div class="ticket">
-                        <p class="ticket-category">Waiting on Feature Request</p>
-                        <p class="ticket-category-number">4230</p>
-                    </div>
-                    <div class="ticket">
-                        <p class="ticket-category">Awaiting Customer Response</p>
-                        <p class="ticket-category-number">1005</p>
-                    </div>
-                    <div class="ticket">
-                        <p class="ticket-category">Awaiting Developer Fix</p>
-                        <p class="ticket-category-number">914</p>
-                    </div>
-                    <div class="ticket">
-                        <p class="ticket-category">Pending</p>
-                        <p class="ticket-category-number">281</p>
-                    </div>
-                </div>
-                <div class="tasks">
-                    <div class="header">
-                        <p class="title">Tasks</p>
-                        <p class="extend secondary-color">View all</p>
-                    </div>
-                    <p class="date">Today</p>
-                    <div class=" task add-new-task">
-                        <p>Create new task</p>
-                    </div>
-                    <div class="task">
-                        <div class="input-container">
-                            <input type="radio">
-                            <label>Finish ticket update</label>
-                        </div>
-                        <p class="task-status urgent-task">URGENT</p>
-                    </div>
-                    <div class="task">
-                        <div class="input-container">
-                            <input type="radio">
-                            <label>Create new ticket example</label>
-                        </div>
-                        <p class="task-status new-task">NEW</p>
-                    </div>
-                    <div class="task">
-                        <div class="input-container">
-                            <input type="radio">
-                            <label>Update ticket report</label>
-                        </div>
-                        <p class="task-status default-task">DEFAULT</p>
-                    </div>
-                </div>
+            <div class="statistic">
+              <p class="statistic-title">Overdue</p>
+              <p class="statistic-number">16</p>
             </div>
+            <div class="statistic">
+              <p class="statistic-title">Open</p>
+              <p class="statistic-number">43</p>
+            </div>
+            <div class="statistic">
+              <p class="statistic-title">On hold</p>
+              <p class="statistic-number">64</p>
+            </div>
+          </div>
         </section>
 
-        <section class="mobile-menu" id="mobile-menu">
-            <i class="fa fa-times fa-2x" id="mobile-menu-close-icon"></i>
-            <div class="buttons">
-                <a href="dashboard.html" class="menu-button active">
-                    <i class="fa fa-circle"></i>
-                    <p class="menu-button-text">Overview</p>
-                </a>
-                <a href="tickets.html" class="menu-button">
-                    <i class="fa fa-ticket"></i>
-                    <p class="menu-button-text">Tickets</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-lightbulb"></i>
-                    <p class="menu-button-text">Ideas</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-users"></i>
-                    <p class="menu-button-text">Contacts</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-user-secret"></i>
-                    <p class="menu-button-text">Agents</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-newspaper"></i>
-                    <p class="menu-button-text">Articles</p>
-                </a>
+        <!-- TRENDS -->
 
-                <div class="break-line"></div>
-
-                <a href="" class="menu-button">
-                    <i class="fa fa-cog"></i>
-                    <p class="menu-button-text">Settings</p>
-                </a>
-                <a href="" class="menu-button">
-                    <i class="fa fa-newspaper"></i>
-                    <p class="menu-button-text">Subscription</p>
-                </a>
+        <div class="trends">
+          <div class="trends-graphics">
+            <p class="graphic-title">Today’s trends</p>
+            <div class="graphic-date">
+              <p class="date">as of 25 May 2019, 09:41 PM</p>
+              <div class="graphic-legend">
+                <div class="graphic-1">
+                  <div class="graphic-color"></div>
+                  <p>Today</p>
+                </div>
+                <div class="graphic-2">
+                  <div class="graphic-color"></div>
+                  <p>Yesterday</p>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="graphic-image">
+              <img src="./images/full graph.png" alt="graphic" />
+            </div>
+          </div>
+          <div class="trends-summaries">
+            <div class="summary">
+              <p class="summary-title">Resolved</p>
+              <p class="summary-number">449</p>
+            </div>
+            <div class="summary">
+              <p class="summary-title">Received</p>
+              <p class="summary-number">426</p>
+            </div>
+            <div class="summary">
+              <p class="summary-title">Average first response time</p>
+              <p class="summary-number">33m</p>
+            </div>
+            <div class="summary">
+              <p class="summary-title">Average response time</p>
+              <p class="summary-number">3h 8m</p>
+            </div>
+            <div class="summary">
+              <p class="summary-title">Resolution within SLA</p>
+              <p class="summary-number">94%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TICKETS AND tasks -->
+
+        <div class="tickets-and-tasks">
+          <div class="tickets">
+            <div class="header">
+              <p class="title">Unresolved tickets</p>
+              <p class="extend secondary-color">View all</p>
+            </div>
+            <p class="category">Group: <strong>Support</strong></p>
+            <div class="ticket">
+              <p class="ticket-category">Waiting on Feature Request</p>
+              <p class="ticket-category-number">4230</p>
+            </div>
+            <div class="ticket">
+              <p class="ticket-category">Awaiting Customer Response</p>
+              <p class="ticket-category-number">1005</p>
+            </div>
+            <div class="ticket">
+              <p class="ticket-category">Awaiting Developer Fix</p>
+              <p class="ticket-category-number">914</p>
+            </div>
+            <div class="ticket">
+              <p class="ticket-category">Pending</p>
+              <p class="ticket-category-number">281</p>
+            </div>
+          </div>
+          <div class="tasks">
+            <div class="header">
+              <p class="title">Tasks</p>
+              <p class="extend secondary-color">View all</p>
+            </div>
+            <p class="date">Today</p>
+            <div class="task add-new-task">
+              <p>Create new task</p>
+            </div>
+            <div class="task">
+              <div class="input-container">
+                <input type="radio" />
+                <label>Finish ticket update</label>
+              </div>
+              <p class="task-status urgent-task">URGENT</p>
+            </div>
+            <div class="task">
+              <div class="input-container">
+                <input type="radio" />
+                <label>Create new ticket example</label>
+              </div>
+              <p class="task-status new-task">NEW</p>
+            </div>
+            <div class="task">
+              <div class="input-container">
+                <input type="radio" />
+                <label>Update ticket report</label>
+              </div>
+              <p class="task-status default-task">DEFAULT</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile-menu" id="mobile-menu">
+        <i class="fa fa-times fa-2x" id="mobile-menu-close-icon"></i>
+        <div class="buttons">
+          <a href="dashboard.html" class="menu-button active">
+            <i class="fa fa-circle"></i>
+            <p class="menu-button-text">Overview</p>
+          </a>
+          <a href="tickets.html" class="menu-button">
+            <i class="fa fa-ticket"></i>
+            <p class="menu-button-text">Tickets</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-lightbulb"></i>
+            <p class="menu-button-text">Ideas</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-users"></i>
+            <p class="menu-button-text">Contacts</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-user-secret"></i>
+            <p class="menu-button-text">Agents</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-newspaper"></i>
+            <p class="menu-button-text">Articles</p>
+          </a>
+
+          <div class="break-line"></div>
+
+          <a href="" class="menu-button">
+            <i class="fa fa-cog"></i>
+            <p class="menu-button-text">Settings</p>
+          </a>
+          <a href="" class="menu-button">
+            <i class="fa fa-newspaper"></i>
+            <p class="menu-button-text">Subscription</p>
+          </a>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
 
 <script>
-    let menuIsDisplayed = false;
-    const mobileMenuIcon = document.getElementById("mobile-menu-icon");
-    const mobileMenuCloseIcon = document.getElementById("mobile-menu-close-icon");
-    const mobileMenu = document.getElementById("mobile-menu")
+  let menuIsDisplayed = false;
+  const mobileMenuIcon = document.getElementById("mobile-menu-icon");
+  const mobileMenuCloseIcon = document.getElementById("mobile-menu-close-icon");
+  const mobileMenu = document.getElementById("mobile-menu");
 
-    const mobileMenuHandler = () =>{
-        menuIsDisplayed = !menuIsDisplayed
-        if(menuIsDisplayed) mobileMenu.classList.add('active-mobile-menu')
-        else mobileMenu.classList.remove('active-mobile-menu')
-    }
+  const mobileMenuHandler = () => {
+    menuIsDisplayed = !menuIsDisplayed;
+    if (menuIsDisplayed) mobileMenu.classList.add("active-mobile-menu");
+    else mobileMenu.classList.remove("active-mobile-menu");
+  };
 
-    mobileMenuIcon.addEventListener("click", mobileMenuHandler)
-    mobileMenuCloseIcon.addEventListener("click", mobileMenuHandler)
-
+  mobileMenuIcon.addEventListener("click", mobileMenuHandler);
+  mobileMenuCloseIcon.addEventListener("click", mobileMenuHandler);
 </script>
